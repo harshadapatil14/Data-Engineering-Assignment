@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package dataflow;
+
+message CustomerEvent {
+  string customer_id = 1;
+  string name = 2;
+  string email = 3;
+  string business_unit = 4;
+  int64 registered_at = 5;
+}

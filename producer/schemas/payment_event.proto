@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package dataflow;
+
+message PaymentEvent {
+  string payment_id = 1;
+  string account_id = 2;
+  string business_unit = 3;
+  double amount = 4;
+  string method = 5;
+  int64 processed_at = 6;
+}

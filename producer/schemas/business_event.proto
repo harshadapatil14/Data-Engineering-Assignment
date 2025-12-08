@@ -1,0 +1,10 @@
+syntax = "proto3";
+
+package dataflow;
+
+message BusinessEvent {
+  string event_id = 1;
+  string business_unit = 2;
+  string description = 3;
+  int64 timestamp = 4;
+}

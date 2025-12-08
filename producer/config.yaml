@@ -1,0 +1,9 @@
+bootstrap_servers: "localhost:9092"
+topic_schema_map:
+  business-events: "BusinessEvent"
+  customer-events: "CustomerEvent"
+  account-events: "AccountEvent"
+  trade-events: "TradeEvent"
+  payment-events: "PaymentEvent"
+poison_pill_interval_messages: 200
+emit_interval_ms: 200

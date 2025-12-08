@@ -1,0 +1,7 @@
+syntax = "proto3";
+
+package dataflow;
+
+message PoisonEvent {
+  string reason = 1;
+}

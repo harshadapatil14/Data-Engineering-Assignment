@@ -1,0 +1,11 @@
+syntax = "proto3";
+
+package dataflow;
+
+message AccountEvent {
+  string account_id = 1;
+  string customer_id = 2;
+  string business_unit = 3;
+  double balance = 4;
+  int64 updated_at = 5;
+}
