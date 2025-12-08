@@ -1,0 +1,5 @@
+confluent-kafka>=2.0.0
+protobuf>=3.20.0
+googleapis-common-protos
+snowflake-connector-python>=3.0.0
+PyYAML
