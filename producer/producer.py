@@ -20,12 +20,12 @@ import sys
 # Import generated protobuf modules (ensure Python path includes producer/generated)
 sys.path.append(os.path.join(os.path.dirname(__file__), "generated"))
 
-from business_event_pb2 import BusinessEvent
-from customer_event_pb2 import CustomerEvent
-from account_event_pb2 import AccountEvent
-from trade_event_pb2 import TradeEvent
-from payment_event_pb2 import PaymentEvent
-from poison_event_pb2 import PoisonEvent
+from generated.business_event_pb2 import BusinessEvent
+from generated.customer_event_pb2 import CustomerEvent
+from generated.account_event_pb2 import AccountEvent
+from generated.trade_event_pb2 import TradeEvent
+from generated.payment_event_pb2 import PaymentEvent
+from generated.poison_event_pb2 import PoisonEvent
 
 # ---------------------------
 # Load producer config
